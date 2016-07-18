@@ -1,0 +1,14 @@
+{
+  "name": "twitch_chat_bot",
+  "version": "1.0.0",
+  "description": "chat bot to be used by a twitch.tv channel",
+  "main": "twitchbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rs",
+  "license": "ISC",
+  "dependencies": {
+    "tmi.js": "^1.1.1"
+  }
+}

@@ -52,7 +52,6 @@ function updateViewerCount(channel){
 }
 setInterval(updateViewerCount, 1000 * 15, chan);
 
-function respondToChat(){
 client.on('chat', function(channel, user, message, self){
 	var random = Math.floor(Math.random() * 3);
 
@@ -108,9 +107,7 @@ client.on('chat', function(channel, user, message, self){
 	}	
 });
 
-}
 
-setInterval(respondToChat, 5000);
 
 client.on('connected', function(address, port){
 	console.log(client.getOptions());
